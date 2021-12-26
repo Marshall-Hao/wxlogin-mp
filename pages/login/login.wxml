@@ -1,0 +1,5 @@
+<!--pages/login/login.wxml-->
+<button  wx:if="{{!hasUserInfo}}" bindtap="getUserProfile">getuserprofile</button>
+
+<view>{{user.nickname}}</view>
+<image src="{{user.avatar}}"></image>
